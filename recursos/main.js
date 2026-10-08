@@ -1,23 +1,7 @@
 console.log("Fichero main.js cargado correctamente");
+import { GastoService } from "./service/gasto.service.js";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+GastoService.almacenarGastos();
 
 // ----------------------------------------------- (! NO TOCAR ) ------------------------------------------------------
 // let ultimoId = 18; // Último ID de tu lista inicial
